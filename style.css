@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    height: 700px;
+    width: 100%;
+}
+img{
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: -22px;
+    height: 20px;
+}
+.red{
+   background: linear-gradient(to right, rgb(241, 4, 4),rgba(255, 89, 89, 0.877) );
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+   padding: 0  35px;
+   width: 50%;
+   flex-direction: column;
+}
+.red p{
+    color: white;
+}
+.red h2{
+    color: white;
+}
+.red button{
+    background: linear-gradient(to right, rgb(241, 4, 4),rgba(255, 89, 89, 0.877) );
+    width: 35%;
+    border: 2px white solid;
+    color: white;
+    height: 50px;
+    border-radius: 40px;
+    
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: white;
+}
+.white h2{
+    color:black;
+}
+.white .color{
+    width: 27%;
+    padding: 15px;
+    background: linear-gradient(to right, rgb(241, 4, 4),rgba(241, 4, 4, 0.877) );
+    border-radius: 50px;
+    border: 2px white solid;
+    color: white;
+}
+.white p{
+    color: grey;
+}
+.white input{
+    width: 75%;
+    display: flex;
+    align-items: center;
+
+}
+.container.icons{
+    padding: 15px;
+    width: 35px;
+    height: 35px;
+    gap: 52px;
+    
+}
+.container input{
+    width: 62%;
+    height: 31px;
+    padding-left: 17px;
+
+}
